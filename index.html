@@ -1037,7 +1037,7 @@ html.has-cursor #cur{display:block}
   /* To receive registrations, paste your Google Apps Script web app URL here
      (see google-apps-script.gs). Left empty, the form saves only in this browser
      and the pass says so. */
-  var FORM_ENDPOINT='';
+  var FORM_ENDPOINT='https://script.google.com/macros/s/AKfycbxBzRJOTMypGnMZH_qP1HDL-8BLBJPNC5P9E-AQEBPq-yqub8m98Yi9CsvNLMj8s8PL/exec';
   var form=$('#regForm'),pass=$('#pass'),editing=false,saved=null;
   try{saved=JSON.parse(localStorage.getItem('suspect-exe-reg')||'null')}catch(err){saved=null}
   function setErr(id,input,msg){
